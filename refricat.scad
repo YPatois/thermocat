@@ -141,6 +141,6 @@ difference() {
         translate([0,0,insulationW]) fridge();
         cathouse();
     }
-    translate([fridgel/2+30*cm,-20*cm,-20*cm])
+    translate([fridgel/2,-20*cm,-20*cm])
     cube([fridgel,fridgeL*3,fridgeh*2]);
 }
